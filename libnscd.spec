@@ -2,7 +2,7 @@ Summary:	Interface to communicate with the nscd daemon
 Summary(pl):	Interfejs do komunikowania z demonem nscd
 Name:		libnscd
 Version:	1.1
-Release:	0.1
+Release:	1
 License:	LGPL v2.1
 Group:		Libraries
 # from ftp://ftp.suse.com/pub/suse/i386/9.3/suse/src/libnscd-1.1-4.src.rpm

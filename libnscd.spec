@@ -1,13 +1,12 @@
 Summary:	Interface to communicate with the nscd daemon
 Summary(pl):	Interfejs do komunikowania z demonem nscd
 Name:		libnscd
-Version:	1.1
+Version:	2.0.2
 Release:	1
 License:	LGPL v2.1
 Group:		Libraries
-# from ftp://ftp.suse.com/pub/suse/i386/9.3/suse/src/libnscd-1.1-4.src.rpm
-Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	783360c2316ff8c29b828a1c3dc32bc4
+Source0:	http://suse.osuosl.org/people/kukuk/libnscd/%{name}-%{version}.tar.bz2
+# Source0-md5:	a6f37e961de4f09c06df43070a47c615
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -73,6 +72,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libnscd.so
 %{_libdir}/libnscd.la
 %{_includedir}/libnscd.h
+%{_mandir}/man3/*
 
 %files static
 %defattr(644,root,root,755)

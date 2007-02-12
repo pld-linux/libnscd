@@ -1,5 +1,5 @@
 Summary:	Interface to communicate with the nscd daemon
-Summary(pl):	Interfejs do komunikowania z demonem nscd
+Summary(pl.UTF-8):   Interfejs do komunikowania z demonem nscd
 Name:		libnscd
 Version:	2.0.2
 Release:	1
@@ -14,32 +14,32 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This library provides an easy interface for normal programs to
 communicate with the nscd daemon from the GNU C Library.
 
-%description -l pl
-Ta biblioteka dostarcza ≥atwy w uøyciu interfejs do komunikowania siÍ
-z demonem nscd pochodz±cym z biblioteki GNU C w zwyk≥ych programach.
+%description -l pl.UTF-8
+Ta biblioteka dostarcza ≈Çatwy w u≈ºyciu interfejs do komunikowania siƒô
+z demonem nscd pochodzƒÖcym z biblioteki GNU C w zwyk≈Çych programach.
 
 %package devel
 Summary:	Header files for libnscd library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libnscd
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libnscd
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libnscd library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libnscd.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libnscd.
 
 %package static
 Summary:	Static libnscd library
-Summary(pl):	Statyczna biblioteka libnscd
+Summary(pl.UTF-8):   Statyczna biblioteka libnscd
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libnscd library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libnscd.
 
 %prep

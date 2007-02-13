@@ -1,5 +1,5 @@
 Summary:	Interface to communicate with the nscd daemon
-Summary(pl.UTF-8):   Interfejs do komunikowania z demonem nscd
+Summary(pl.UTF-8):	Interfejs do komunikowania z demonem nscd
 Name:		libnscd
 Version:	2.0.2
 Release:	1
@@ -20,7 +20,7 @@ z demonem nscd pochodzącym z biblioteki GNU C w zwykłych programach.
 
 %package devel
 Summary:	Header files for libnscd library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libnscd
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libnscd
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -32,7 +32,7 @@ Pliki nagłówkowe biblioteki libnscd.
 
 %package static
 Summary:	Static libnscd library
-Summary(pl.UTF-8):   Statyczna biblioteka libnscd
+Summary(pl.UTF-8):	Statyczna biblioteka libnscd
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 

@@ -10,6 +10,8 @@ Source0:	http://suse.osuosl.org/people/kukuk/libnscd/%{name}-%{version}.tar.bz2
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%undefine	__cxx
+
 %description
 This library provides an easy interface for normal programs to
 communicate with the nscd daemon from the GNU C Library.

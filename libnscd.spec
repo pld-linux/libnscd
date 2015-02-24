@@ -2,7 +2,7 @@ Summary:	Interface to communicate with the nscd daemon
 Summary(pl.UTF-8):	Interfejs do komunikowania z demonem nscd
 Name:		libnscd
 Version:	2.0.2
-Release:	3
+Release:	4
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://suse.osuosl.org/people/kukuk/libnscd/%{name}-%{version}.tar.bz2

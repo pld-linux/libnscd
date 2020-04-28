@@ -1,0 +1,10 @@
+--- libnscd-2.0.2/src/libnscd.c.orig	2020-04-28 13:13:02.196027384 +0200
++++ libnscd-2.0.2/src/libnscd.c	2020-04-28 13:12:44.799392886 +0200
+@@ -26,6 +26,7 @@
+ #include <string.h>
+ #include <unistd.h>
+ #include <sys/socket.h>
++#include <sys/uio.h>
+ #include <sys/un.h>
+ 
+ #include "libnscd.h"

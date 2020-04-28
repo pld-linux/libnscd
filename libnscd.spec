@@ -7,6 +7,7 @@ License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://suse.osuosl.org/people/kukuk/libnscd/%{name}-%{version}.tar.bz2
 # Source0-md5:	a6f37e961de4f09c06df43070a47c615
+Patch0:		%{name}-writev.patch
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,6 +47,7 @@ Statyczna biblioteka libnscd.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.* .
